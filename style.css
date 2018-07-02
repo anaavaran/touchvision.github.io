@@ -1,0 +1,173 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+	background-color:#FFFFFF;
+	padding: 0 3.125%; 
+	max-width: 1400px;
+	@include flexbox();
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+
+
+}
+.navbar-brand{
+	font-family : Roboto;
+	font-size : 42px;
+	color:#D5D5D !important;   //color not changing
+}
+
+.navbar-default .navbar-nav li a{
+	color:#3366cc;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+	color:#000000;
+	
+}
+#home{
+
+	background-image:url("cover.jpg");
+	
+	padding-top: 50px;
+	position: relative;
+	height: 400px;
+	text-align: center;
+	width: 100%; 
+    margin: auto;
+	background-size: cover;
+	 
+    
+}
+.landing-text {
+height: 10em;
+   position: relative;
+    text-align: center;
+                          
+}
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700%;
+	color:#FFF;
+	text-align: center;
+     margin: 0;
+   position: absolute;               
+   top: 50%;                         
+    
+}
+.landing-text h3{
+text-align: center;
+     margin: 0;
+   position: absolute;     
+   color:#FFF;           
+   top: 100%;  
+
+}	
+.lead {
+ text-align: justify;
+ text-justify: inter-word;
+                          
+}
+
+
+.padding{
+	padding: 50px 0;
+}
+.padding img{
+	width: 100%;
+	 border-radius: 8px;
+}
+footer{
+	width:100%;
+	background-color: #23415C;
+	padding: 5% 5% 10% 5%;
+	color:#FFF; 
+}
+
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color:#FFF;
+}
+
+.fa:hover{
+	color:#D5D5D;
+text-decoration: none;
+}
+.testimonial_subtitle{
+
+    color: #0aaa7a;
+    font-size: 12px;
+}
+  .testimonial_btn{
+    background-color: #373d4b !important;
+    color: #fff !important;
+ }
+ .seprator {
+    height: 2px;
+    width: 56px;
+    background-color: #0aaa7a;
+    margin: 7px 0 10px 0;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
